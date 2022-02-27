@@ -75,37 +75,29 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="335dp"
                     android:layout_gravity="center"
-                    android:background="@color/voip_dark_color2"
+                    android:background="@color/white_color"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="20dp">
 
                     <ImageView
-                        android:layout_width="50dp"
+                        android:layout_width="150dp"
                         android:layout_height="wrap_content"
-                        android:adjustViewBounds="true"
                         android:layout_gravity="center"
                         android:layout_marginBottom="10dp"
-                        android:contentDescription="@null"
-                        android:src="@drawable/linphone_logo_tinted"/>
-
-                    <ImageView
-                        android:layout_width="125dp"
-                        android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
-                        android:layout_gravity="center"
                         android:contentDescription="@null"
-                        android:src="@drawable/linphone_app_name_logo" />
+                        android:src="@drawable/linphone_logo_tinted" />
 
                     <TextView
-                        android:textSize="13sp"
-                        android:textColor="?accentColor"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="@string/app_description" />
+                        android:text="@string/app_description"
+                        android:textColor="?accentColor"
+                        android:textSize="13sp" />
 
                     <TextView
                         style="@style/about_version_font"
@@ -114,9 +106,9 @@
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:paddingTop="20dp"
+                        android:text="@{String.format(@string/about_version, viewModel.appVersion)}"
                         android:textColorLink="?attr/secondaryTextColor"
-                        android:textIsSelectable="true"
-                        android:text="@{String.format(@string/about_version, viewModel.appVersion)}" />
+                        android:textIsSelectable="true" />
 
                     <TextView
                         style="@style/about_version_font"
@@ -124,9 +116,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center"
+                        android:text="@{String.format(@string/about_liblinphone_sdk_version, viewModel.sdkVersion)}"
                         android:textColorLink="?attr/secondaryTextColor"
-                        android:textIsSelectable="true"
-                        android:text="@{String.format(@string/about_liblinphone_sdk_version, viewModel.sdkVersion)}" />
+                        android:textIsSelectable="true" />
 
                 </LinearLayout>
 
