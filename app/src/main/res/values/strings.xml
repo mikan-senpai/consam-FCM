@@ -28,7 +28,7 @@
     <string name="logs_upload_failure">Failed to upload logs!</string>
     <string name="logs_reset_complete">Logs have been cleared</string>
     <string name="logs_url_copied_to_clipboard">Logs URL copied into clipboard</string>
-    <string name="about_bugreport_email" translatable="false">linphone-android@belledonne-communications.com</string>
+    <string name="about_bugreport_email" translatable="false"></string>
 
     <!-- Common -->
     <string name="phone_number">Phone number</string>
@@ -63,7 +63,7 @@
     <string name="transport_tls">TLS</string>
 
     <!-- Launch screen -->
-    <string name="app_description">the <i>AKD Network</i> SIP client</string>
+    <string name="app_description"> <i>AKD Network</i> Phone</string>
 
     <!-- Status fragment -->
     <string name="status_connected">Connected</string>
@@ -356,7 +356,7 @@
     <string name="assistant_privacy_policy_link" translatable="false"></string>
     <string name="assistant_general_terms">terms of use</string>
     <string name="assistant_privacy_policy">privacy policy</string>
-    <string name="assistant_read_and_agree_terms">I accept AKD Network</string>
+    <string name="assistant_read_and_agree_terms">I accept terms and conditions of AKD Network</string>
     <string name="assistant_generic_account_warning">Some features require a &appName; account, such as group messaging or ephemeral messaging.\n\nThese features are hidden when you register with a third party SIP account.\n\nTo enable it in a commercial project, please contact us.</string>
     <string name="assistant_generic_account_warning_contact_link" translatable="false"></string>
     <string name="assistant_generic_account_warning_continue_button_text">I understand</string>
@@ -568,7 +568,7 @@
     <string name="advanced_settings_send_debug_logs_title">Send logs</string>
     <string name="advanced_settings_reset_debug_logs_title">Reset logs</string>
     <string name="advanced_settings_debug_title">Debug settings</string>
-    <string name="advanced_settings_other_title">Other settings</string>
+    <string name="advanced_settings_other_title">More settings</string>
     <string name="advanced_settings_disable_fragment_security_title">Disable UI\'s secure mode</string>
     <string name="advanced_settings_disable_fragment_security_summary">Allow screen capture/recording on sensitive views</string>
 
