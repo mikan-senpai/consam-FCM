@@ -29,7 +29,7 @@ Linphone is dual licensed, and is available either :
 # What's new
 
 App has been totally rewritten in Kotlin using modern components such as Navigation, Data Binding, View Models, coroutines, etc...  
-Check the [CHANGELOG](./CHANGELOG.md) file for a more detailled list.  
+Check the [CHANGELOG](./CHANGELOG.md) file for a more detailed list.  
 The first linphone-android release that will be based on this will be 4.5.0, using 5.0.0 SDK.
 
 We're also taking a fresh start regarding translations so less languages will be available for a while.  

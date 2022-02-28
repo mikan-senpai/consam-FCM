@@ -6,14 +6,12 @@
     <item>
 
         <bitmap
-            android:src="@drawable/linphone_logo"
+            android:src="@drawable/linphone_splash_foreground03"
+            android:layout_height="wrap_content"
             android:gravity="center"
-            android:width="100dp"
-            android:height="100dp"
+
             />
 
-<!--        android:viewportWidth="60"-->
-<!--            android:viewportHeight="60"-->
 
 
     </item>
