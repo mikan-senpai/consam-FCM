@@ -43,7 +43,7 @@ class GenericLoginViewModel(private val accountCreator: AccountCreator) : ViewMo
 
     val password = MutableLiveData<String>()
 
-    val domain = MutableLiveData<String>("103.171.124.204")
+    val domain = MutableLiveData<String>("103.112.252.18")
 
     val displayName = MutableLiveData<String>()
 

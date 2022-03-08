@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
 <!DOCTYPE resources [
-    <!ENTITY appName "AKD Network">
+    <!ENTITY appName "Consam Telecom">
 ]>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
@@ -14,13 +14,13 @@
     <string name="sync_account_name">&appName; contacts</string>
 
     <!-- About screen -->
-    <string name="about_link" translatable="false"></string>
-    <string name="about_privacy_policy_link" translatable="false"></string>
+    <string name="about_link" translatable="false">https://consamtelecom.com/</string>
+    <string name="about_privacy_policy_link" translatable="false">https://consamtelecom.com/contact</string>
     <string name="about_license_link" translatable="false"></string>
     <string name="about_version" translatable="false"></string>
     <string name="about_liblinphone_sdk_version" translatable="false"></string>
     <string name="about_privacy_policy">Contact us</string>
-    <string name="about_text" translatable="false">Help line 24*7 - 033 -71422000\n </string>
+    <string name="about_text" translatable="false">Help line  0091 74850 90885\n </string>
     <string name="about_weblate_link" translatable="false"></string>
     <string name="about_weblate_translation"></string>
 
@@ -63,7 +63,7 @@
     <string name="transport_tls">TLS</string>
 
     <!-- Launch screen -->
-    <string name="app_description"> <i>AKD Network</i> Phone</string>
+    <string name="app_description"> <i>Consam</i> Telecom</string>
 
     <!-- Status fragment -->
     <string name="status_connected">Connected</string>
