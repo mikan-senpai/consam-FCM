@@ -6,7 +6,7 @@
     <item>
 
         <bitmap
-            android:src="@drawable/linphone_splash_foreground"
+            android:src="@drawable/splash_screen_night_mode"
             android:layout_height="fill_parent"
             android:gravity="center"
 
