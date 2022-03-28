@@ -11,7 +11,7 @@ def appVersionName = "4.7.0"
 def appVersionCode = 40690 // 4.06.00
 
 static def getPackageName() {
-    return "org.linphone"
+    return "org.CONSAM"
 }
 
 def firebaseEnabled = new File(projectDir.absolutePath +'/google-services.json').exists()
